@@ -1,0 +1,6 @@
+{
+    "name": "pkg1",
+    "dependencies": {
+        "pkg2": "workspace:*"
+    }
+}

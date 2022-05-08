@@ -16,3 +16,5 @@ This is an example of a minimal repo using [pnpm's workspaces](https://pnpm.io/w
     -   A: Yes.
 -   Q: Do I need to put stuff in a `/packages/` subdir?
     -   A: No.
+-   Q: How could this be useful?
+    -   A: If you had an online board game, you might break your packages into game, client, and server. It makes it easier to separate things and avoid import spaghetti. You can do local imports without having a pnpm-workspace.yaml but it makes the install step and stuff a bit more reliable.
